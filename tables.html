@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8"> 
+        <title>Tables</title>
+        <meta name="description" content="tables">
+        <meta name="keywords" content="Assignment 2,tables, portfolio">
+        <meta name="author" content="Jasmine Tavakkoli">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="main.css">
+        <link rel="stylesheet" href="tables.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Tables</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="htmlList.html">HTML List</a></li>
+                <li><a href="#">Tables</a></li>
+            </ul>
+        </header>
+        <main>
+            <!-- table 1 div -->
+            <div id="table-1">
+                <h2 id="first-header">Semester 1 Courses</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>College English</td>
+                            <td>COMM1007</td>
+                        </tr>
+                        <tr>
+                            <td>Math</td>
+                            <td>1162</td>
+                        </tr>
+                        <tr>
+                            <td>IT Essentials</td>
+                            <td>COMP1151</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>COMP1223</td>
+                        </tr>
+                        <tr>
+                            <td>Business Applicattion</td>
+                            <td>GSSC1045</td>
+                        </tr>
+                        <tr>
+                            <td>Applied Programming Logic</td>
+                            <td>COMP1236</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+            <hr/>
+            <!-- table 2 div -->
+            <div id="table-2">
+                <h2>Best Movies I've watched recently</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Movie</th>
+                            <th>Director(s)</th>
+                            <th colspan="2">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Old Boy</td>
+                            <td>Park Chan-wook</td>
+                            <td>82%</td>
+                            <td>8.4</td>
+                        </tr>
+                        <tr>
+                            <td>American Psycho</td>
+                            <td>Mary Harron</td>
+                            <td>69%</td>
+                            <td>7.6</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">The Matrix</td>
+                            <td>Lana Wachowski</td>
+                            <td rowspan="2">88%</td>
+                            <td rowspan="2">8.7</td>
+                        </tr>
+                        <tr>
+                            <td>Lilly Wachowski</td> 
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+            <hr/>
+            <!-- table 3 div -->
+            <div id="table-3">
+                <h2>Games</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <caption id="left-table">Games I Played</caption>
+                                <tr>
+                                    <td>Witcher 3</td>
+                                    <td>GTA 5</td>
+                                </tr>
+                                <tr>
+                                    <td>Outlast</td>
+                                    <td>Among Us</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <caption id="right-table">Games I Like to Play</caption>
+                                <tr>
+                                    <td>Cyberpunk 2077</td>
+                                    <td>Little Nightmares 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Bioshock</td>
+                                    <td>Resident Evil 7</td>
+                                </tr>
+                                <tr>
+                                    <td>Watch Dogs</td>
+                                    <td>Spider-Man</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <!-- table 4 div -->
+            <div id="table-4">
+                <h2>Table 4</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <figure>
+                                <!-- Why doesnt the img tag work? -->
+                                <img src="assets/img/gbc-logo.jpeg" alt="GBC Logo" style="width:250px;height:200px;">
+                                <figcaption>George Brown College<br>
+                                    <a href="mailto:Yasaman.TavakkoliTabasi@georgebrown.ca">Yasaman Tavakkoli Tabasi</a>
+                                </figcaption>
+                                
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <!-- table 5 div -->
+            <div id="table-5">
+                <h2>Table 5</h2>
+                <table>
+                    <thead>
+                        <tr class="table-heading">
+                            <th class="top">COMP1223</th>
+                            <th class="middle">COMP1223</th>
+                            <th class="bottom">COMP1223</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row-1">
+                            <td class="top">COMP1223</td>
+                            <td class="middle">COMP1223</td>
+                            <td class="bottom">COMP1223</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="table-row-2">
+                            <td class="top">COMP1223</td>
+                            <td class="middle">COMP1223</td>
+                            <td class="bottom">COMP1223</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+        <hr/>
+        <br>
+        <footer>
+            <a href="#top" class="top-button">top</a>
+            <script src="https://my.gblearn.com/js/loadscript.js"></script>
+        </footer>
+    </body>
+</html>

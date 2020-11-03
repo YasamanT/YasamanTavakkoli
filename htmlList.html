@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta name="description" content="Assignment 2">
+        <meta name="keywords" content="Assignment 2, portfolio, Lists, HTML5, Tables">
+        <meta name="author" content="Jasmine Tavakkoli">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="htmlList.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Lists</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">HTML List</a></li>
+                <li><a href="tables.html">Tables</a></li>
+            </ul>
+        </header>
+        <main>
+            <!-- first table ordered lists -->
+            <table id="ordered-list">
+                <caption style="top: 39em;">1.ordered lists</caption>
+                <thead>
+                    <tr>
+                        <th>My Reading List</th>
+                        <th>My TV Show Watch List</th>
+                        <th>My Favorite Music Genres</th>
+                        <th>My Hobbies</th>
+                        <th>Favorite Dishes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol style="list-style-type:decimal;">
+                                <li>The Handmaid's Tale</li>
+                                <li>Nauseau</li>
+                                <li>The Clown</li>
+                                <li>Business @ the Speed of Thoughts</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol style="list-style-type:lower-alpha;">
+                                <li>The Sopranos</li>
+                                <li>The Office</li>
+                                <li>Bojack Horseman</li>
+                                <li>Umbrella Academy</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol style="list-style-type:upper-alpha;">
+                                <li>POP</li>
+                                <li>Hip-Hop</li>
+                                <li>RAP</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol style="list-style-type:lower-roman;">
+                                <li>Sleeping</li>
+                                <li>Watching Film</li>
+                                <li>Listening to Music</li>
+                                <li>Hanging Out with Friends</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol style="list-style-type:upper-roman;">
+                                <li>Pizza</li>
+                                <li>Doner Kebab</li>
+                                <li>Joojeh Kabab</li>
+                                <li>Felafel</li>
+                                <li>Kebab</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- end of the first table -->
+            <!-- table 2 unordered lists -->
+            <hr>
+            <table id="unordered-list">
+                <caption style="top:31em;">2.unordered lists</caption>
+                <thead>
+                    <tr>
+                        <th>My Courses</th>
+                        <th>Exams I took so far</th>
+                        <th>My Favorite Courses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="unordered-first">
+                            <ul>
+                                <li>Comp1223</li>
+                                <li>Comp1226</li>
+                                <li>Math1162</li>
+                                <li>Comp1151</li>
+                                <li>COMM1007</li>
+                                <li>GSSC1045</li>
+                            </ul>
+                        </td>
+                        <td id="unordered-second">
+                            <ul>
+                                <li>Comp1223 Lab test 1</li>
+                                <li>Comp1226 Lab Test 1</li>
+                                <li>Math Test 1</li>
+                            </ul>
+                        </td>
+                        <td id="unordered-third">
+                            <ul>
+                                <li>Comp1223</li>
+                                <li>Math</li>
+                                <li>Comp1226</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody> 
+            </table>
+            <hr>
+            <!-- the third table -->
+            <table id="description-list">
+                <caption style="top: 41.5em;">3.definition lists</caption>
+                <thead>
+                    <tr>
+                        <th>Description List</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <dl>
+                                <dt>
+                                    NONPLUSSED
+                                </dt>
+                                <dd>
+                                    “Filled with bewilderment”
+                                </dd>
+                                <dt>
+                                    INDEFATIGABLE
+                                </dt>
+                                <dd>
+                                    “Showing sustained enthusiastic action with unflagging vitality”
+                                    In Latin, it was possible to defatigare, 
+                                    or "to tire out," but only the negative version prefixed with in- 
+                                    survived the journey into English (via French).
+                                </dd>
+                                <dt>
+                                    MARTINET
+                                </dt>
+                                <dd>
+                                    “Someone who demands exact conformity to rules and forms”
+                                </dd>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <!-- fourth table -->
+            <table id="nested-ol-list">
+                <caption style="top: 35em;">4.Nested ordered list</caption>
+                <thead>
+                    <tr>
+                        <th>Nested Ordered List</th>
+                    </tr>
+                </thead>  
+                <tbody>
+                    <tr>
+                        <td>
+                            <dl id="ol-list">
+                                <dt>Upcoming Midterm Exams</dt>
+                                <dd>
+                                    <ol>
+                                        <li>Web development</li>
+                                        <li>Programming Logic</li>
+                                        <li>Math Test 2</li>
+                                    </ol>
+                                </dd>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <!-- fifth list -->
+            <table id="nested-ul-list">
+                <caption style="top: 26.5em;">5.Nested unordered list</caption>
+                <thead>
+                    <tr>
+                        <th>Nested Unordered List</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <dl id="ul-list">
+                                <dt>Homework</dt>
+                                <dd>
+                                    <ul id="nested-ul">
+                                        <li>English Essay</li>
+                                        <li>Business Application Quiz</li>
+                                        <li>IT Lab</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <hr>
+        <br>
+        <footer>
+            <a href="#top" class="top-button">top</a>
+            <script src="https://my.gblearn.com/js/loadscript.js"></script>
+        </footer>
+    </body>
+</html>

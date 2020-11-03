@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+p{
+    font-size: large;
+}
+header>ul>li:hover{
+    background-color: #0096c7;
+    border-radius: 10px;
+    height: 53px;
+}
+header>ul{
+    background-color: #0077b6;
+    height: 62px;
+    /* the width problem went away once I set body margin and padding:0 */
+    width: 100%;
+}
+header>ul>li{
+    padding-top: 5px;
+}
+#map-box{
+    margin-right: 2em;
+    margin-left: 15em;
+    margin-top: -19em;
+}
+#email-box{
+    margin-top: 2em;
+}
+#email{
+    color: whitesmoke;
+    margin: 5em 2em .5em 5em;
+}
+#linkedin{
+    clear: both;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+#instagram{
+    margin-top: 2em;
+    margin-left: 5em;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+img:hover{
+    border: 2px dashed black;
+}

@@ -1,0 +1,22 @@
+body{
+    background-image: url(assets/img/flower.png);
+    background-position-x: right;
+    background-position-y: 13em;
+    background-repeat: no-repeat;
+    background-size: 24%;
+}
+.email:link{
+    color:#8a2846;
+}
+.email:visited{
+    color: purple;
+}
+.email:hover,.email:focus{
+    color: blue;
+}
+.container{
+    padding: .5em 2em 2em;
+}
+main{
+    margin-bottom: 8em;
+}

@@ -1,0 +1,338 @@
+body{
+    background-color: #e0aaff;
+    font-family: 'Merriweather', serif;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+}
+nav #menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5a189a;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+    display: inline-table;
+    text-align: center;
+    display: block;
+}
+
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+nav ul li:hover {
+	background: #5a189a;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+	color: #5a189a;
+	text-decoration: none;
+}
+nav ul li {
+	float: left;
+	position: relative;
+	font-weight: bold;
+}
+nav ul li:hover {
+    background: #7b2cbf;
+    border-radius: 10px;
+}
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+    color: white;;
+    text-align: center;
+	text-decoration: none;
+}
+nav ul ul {
+    background-color: #5a189a;
+	border-radius: 10px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+nav ul ul li {
+	float: none;
+    position: relative;
+    text-shadow: 1px 1px black;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+
+h1,h2{
+    margin-left: 15px;
+    color: #240046;
+}
+
+#header-title{
+    margin-left: 1em;
+}
+
+main{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#education{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+    margin-left: 10em;
+}
+#edu-block{
+    padding: 1.5em;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+#edu{
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2em 0 .5em 8em;
+}
+.heading{
+    font-weight: bolder;
+}
+.heading:first-child::first-letter{
+    font-size: 200%;
+    color: red;
+}
+/* education style */
+#edu h2{
+    position: absolute;
+    top: 2.5em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+/* relative courses style */
+#rel-courses{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+    margin-left: 8em;  
+}
+#courses-title{
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin: 2em 5em .5em 3em;    
+}
+#courses-title h2{
+    position: absolute;
+    top: 2em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+#rel-courses-block{
+    color: white;
+    padding: 1.5em;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+/* skills style */
+#skills{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+    margin-left: 10em;
+}
+#skills-title{
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2em 0 .5em 8em;
+}
+#skills-title h2{
+    position: absolute;
+    top: 2.5em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+#skills-block{
+    color: white;
+    padding: 1.5em;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#skills-block ul li{
+    line-height: 3em;
+    color: black;
+}
+/* certificate style */
+#certificate-title{
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2em 0 .5em 8em;
+}
+
+#certificate-title h2{
+    position: absolute;
+    top: 2.5em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+#certificate{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+
+#certificate-block{
+    padding: 1.5em;
+    color: black;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#certificate-block a{
+    color: black;
+    text-decoration: none;
+}
+#certificate-block a:hover{
+    color: blue;
+}
+/* professional experience style */
+#prof-exp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+#prof-exp-title{
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2em 0 .5em 8em;
+}
+#prof-exp-title h2{
+    position: absolute;
+    top: 2em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+#prof-exp-block{
+    padding: 1.5em;
+    color: black;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+/* activities style */
+#activities{
+    float: left;
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+
+#activities-title{
+    float: left;
+    background-color: #7b2cbf;
+    text-align: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2em 2.5em .5em 8em;
+}
+
+#activities-title h2{
+    position: absolute;
+    top: 2.5em;
+    left: .2em;
+    right: .5em;
+    color: whitesmoke;
+}
+
+#activities-block{
+    color: black;
+    padding: 1.5em;
+    margin-right: 8em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+dt{
+    color: blue;
+}
+.top-button{
+    text-decoration: none;
+    margin: 5em 1em 2em 92%;
+    padding: 1em;
+    height: 200px;
+    width: 400px;
+    background-color: #240046;
+    color: white;
+    border-radius: 4px;
+}
+#gblearn_message_holder{
+    padding: 1em;
+    margin: .5em;
+}
